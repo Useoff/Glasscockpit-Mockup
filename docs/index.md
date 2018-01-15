@@ -1,12 +1,12 @@
 # Introduction
-This DLL (Dynamic Link Library) app is an enhancement tool to be used to support [Glasscockpit for FSX](https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX&hl=en). As a server application this DLL is used to transmit flight simulation data from FSX or P3D installed on host computers to android application ( [Glasscockpit for FSX](https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX&hl=en) ).
+This DLL (Dynamic Link Library) app is an enhancement tool to be used to support [Glasscockpit for FSX](https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX). As a server application this DLL is used to transmit flight simulation data from FSX or P3D installed on host computers to android application ( [Glasscockpit for FSX](https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX) ).
 
 # Requirement
 - **FSX / P3D.**   
 Flight Simulation application on the host side computer.
 - **Simconnect SDK on the host computer.**   
 Simconnect SDK version is depend on FSX and P3D version.
-- **[Glasscockpit for FSX](https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX&hl=en) installed on android device.**   
+- **[Glasscockpit for FSX](https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX) installed on android device.**   
 Client application aircraft cockpit devices: PFD, EICAS, ECAM, etc.
 
 # Installation
