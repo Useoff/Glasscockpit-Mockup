@@ -8,22 +8,28 @@ This DLL (Dynamic Link Library) app is an enhancement tool to be used to support
 
 # Installation
 This application can be installed in the following way,
-- Create `<AndroFSXServer>` folder in `<%USERPROFILE%>` directory.
+- Create `<AndroFSXServer>` folder in `<%USERPROFILE%>` directory.   
 ![UserProfilePath](res/img/installation/UserProfilePath.png) 
-- Extract, then place `<AndroFSXServer.cfg>` and `<AndroFSXServer.dll>` inside `<%USERPROFILE%\AndroFSXServer>` folder
+- Extract, then place `<AndroFSXServer.cfg>` and `<AndroFSXServer.dll>` inside `<%USERPROFILE%\AndroFSXServer>` folder   
 ![InstallTarget](res/img/installation/InstallTarget.png) 
-- Add Add-ons, by modifying dll.xml
-  - FSX USER dll.xml can be found in this path `<%USERPROFILE%\AppData\Roaming\Microsoft\FSX>`
-  - PREPAD3D v2 dll.xml can be found in this path `<%USERPROFILE%\AppData\Roaming\Lockhead Martin\Prepar3D v2>`
-- Update ip address in AndroFSXServer.cfg with your smarphone/tablet ip address (ipaddress of your phone can be found on setup page <slide down your current page>).
  
 # Set up
-After we're finish with installation step now we have to configure both client (android side) and server(host computer side).
+After we're finish with installation step now we have to configure server (host computer side) according to client (android side) ip address configuration.
 1. On server side / host computer side. Update simulator dll.xml configuration file :
    1. **FSX USER** dll.xml configuration file can be found in this path `<%USERPROFILE%\AppData\Roaming\Microsoft\FSX>`
    1. **PREPAD3D v2** dll.xml configuration file can be found in this path `<%USERPROFILE%\AppData\Roaming\Lockhead Martin\Prepar3D v2>`
+   
+   In dll.xml we need to add configuration code so FSX or P3D will know where the addon dll is placed. add below code to dll.xml   
+   ```
+   <Launch.Addon>
+     <Name>Android FSX</Name>
+     <Disabled>False</Disabled>
+     <ManualLoad>False</ManualLoad>
+     <Path>C:\Users\<USERNAME>\AndroFSXServer\AndroFSXServer.dll</Path>
+   </Launch.Addon>
+   ```   
 1. Update Host computer configuration.
-   1. Find yours smartphone or tablet ip address. Can be found in setup page, slide left to open menu page.
+   1. Find yours smartphone or tablet ip address. Can be found in setup page, slide left to open menu page then tab on gear icon.   
    ![AndroidConfigStatus](res/img/set%20up/AndroidConfigStatus.jpg)
-   1. Update AndroFSXServer.cfg, add smartphone or tablet ip address to AndroFSXServer.cfg 
+   1. Update AndroFSXServer.cfg, add smartphone or tablet ip address to AndroFSXServer.cfg   
    ![ConfigEdit](res/img/set%20up/ConfigEdit.png)
