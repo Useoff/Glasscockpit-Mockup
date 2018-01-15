@@ -4,7 +4,7 @@ This DLL (Dynamic Link Library) app is an enhancement tool to be used to support
 # Requirement
 - FSX / P3d game application on the host side computer.
 - Simconnect SDK on the host computer, SDK version is depend on FSX and P3D version.
-- [Glassconcpit FSX] (https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX&hl=en) installed on android device.
+- [Glassconcpit FSX](https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX&hl=en) installed on android device.
 
 # Installation
 This application can be installed in the following way,
