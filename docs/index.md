@@ -2,7 +2,7 @@
 This DLL (Dynamic Link Library) app is an enhancement tool to be used to support [Glasscockpit for FSX](https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX&hl=en). As a server application this DLL is used to transmit flight simulation data from FSX or P3D installed on host computers to android application ( [Glasscockpit for FSX](https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX&hl=en) ).
 
 # Requirement
-- **FSX / P3d.**   
+- **FSX / P3D.**   
 Flight Simulation application on the host side computer.
 - **Simconnect SDK on the host computer.**   
 Simconnect SDK version is depend on FSX and P3D version.
@@ -19,8 +19,8 @@ This application can be installed in the following way,
 # Set up
 After we're finish with installation step now we have to configure server (host computer side) according to client (android side) ip address configuration.
 1. On server side / host computer side. Update simulator dll.xml configuration file :
-   1. **FSX USER** dll.xml configuration file can be found in this path `<%USERPROFILE%\AppData\Roaming\Microsoft\FSX>`
-   1. **PREPAD3D v2** dll.xml configuration file can be found in this path `<%USERPROFILE%\AppData\Roaming\Lockhead Martin\Prepar3D v2>`
+   1. **FSX** users dll.xml configuration file can be found in this path `<%USERPROFILE%\AppData\Roaming\Microsoft\FSX>`
+   1. **PREPAD3D v2** users dll.xml configuration file can be found in this path `<%USERPROFILE%\AppData\Roaming\Lockhead Martin\Prepar3D v2>`
    
    In dll.xml we need to add configuration code so FSX or P3D will know where the addon dll is placed. add below code to dll.xml   
    ```
