@@ -8,9 +8,22 @@ This DLL (Dynamic Link Library) app is an enhancement tool to be used to support
 
 # Installation
 This application can be installed in the following way,
-- Create 'AndroFSXServer' folder in %USERPROFILE% directory.
-- Place 'AndroFSXServer.cfg' and 'AndroFSXServer.dll' inside 'AndroFSXServer' folder, below is installation folder illustration
-- Add Add-ons, by modifying dll.xml in "%USERPROFILE%\AppData\Roaming\Microsoft\FSX" for FSX, "%USERPROFILE%\AppData\Roaming\Lockhead Martin\Prepar3D v2" for prepad3d v2.
+- Create `<AndroFSXServer>` folder in `<%USERPROFILE%>` directory.
+![UserProfilePath](res/img/installation/UserProfilePath.png) 
+- Extract, then place `<AndroFSXServer.cfg>` and `<AndroFSXServer.dll>` inside `<%USERPROFILE%\AndroFSXServer>` folder
+![InstallTarget](res/img/installation/InstallTarget.png) 
+- Add Add-ons, by modifying dll.xml
+  - FSX USER dll.xml can be found in this path `<%USERPROFILE%\AppData\Roaming\Microsoft\FSX>`
+  - PREPAD3D v2 dll.xml can be found in this path `<%USERPROFILE%\AppData\Roaming\Lockhead Martin\Prepar3D v2>`
 - Update ip address in AndroFSXServer.cfg with your smarphone/tablet ip address (ipaddress of your phone can be found on setup page <slide down your current page>).
  
 # Set up
+After we're finish with installation step now we have to configure both client (android side) and server(host computer side).
+1. On server side / host computer side. Update simulator dll.xml configuration file :
+   1. **FSX USER** dll.xml configuration file can be found in this path `<%USERPROFILE%\AppData\Roaming\Microsoft\FSX>`
+   1. **PREPAD3D v2** dll.xml configuration file can be found in this path `<%USERPROFILE%\AppData\Roaming\Lockhead Martin\Prepar3D v2>`
+1. Update Host computer configuration.
+   1. Find yours smartphone or tablet ip address. Can be found in setup page, slide left to open menu page.
+   ![AndroidConfigStatus](res/img/set%20up/AndroidConfigStatus.jpg)
+   1. Update AndroFSXServer.cfg, add smartphone or tablet ip address to AndroFSXServer.cfg 
+   ![ConfigEdit](res/img/set%20up/ConfigEdit.png)
