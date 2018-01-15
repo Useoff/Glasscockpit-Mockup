@@ -8,5 +8,9 @@ This DLL (Dynamic Link Library) app is an enhancement tool to be used to support
 
 # Installation
 This application can be installed in the following way,
-
+- Create 'AndroFSXServer' folder in %USERPROFILE% directory.
+- Place 'AndroFSXServer.cfg' and 'AndroFSXServer.dll' inside 'AndroFSXServer' folder, below is installation folder illustration
+- Add Add-ons, by modifying dll.xml in "%USERPROFILE%\AppData\Roaming\Microsoft\FSX" for FSX, "%USERPROFILE%\AppData\Roaming\Lockhead Martin\Prepar3D v2" for prepad3d v2.
+- Update ip address in AndroFSXServer.cfg with your smarphone/tablet ip address (ipaddress of your phone can be found on setup page <slide down your current page>).
+ 
 # Set up
