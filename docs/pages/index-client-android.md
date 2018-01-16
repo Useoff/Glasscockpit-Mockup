@@ -1,4 +1,5 @@
 # Introduction
+This application is mockup version of a many aircraft display systems. which you can install on android device.
 
 # Installation
 You can install this application from [Google Play Store](https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX)
