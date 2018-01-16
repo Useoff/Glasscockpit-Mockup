@@ -12,9 +12,9 @@ Client application aircraft cockpit devices: PFD, EICAS, ECAM, etc.
 # Installation
 DLL (Dynamic link library) and configuration file are installed manually with the following way;
 - Create `<AndroFSXServer>` folder in `<%USERPROFILE%>` directory.   
-![UserProfilePath](res/img/installation/UserProfilePath.png) 
+![UserProfilePath](../res/img/installation/UserProfilePath.png) 
 - Extract, then place `<AndroFSXServer.cfg>` and `<AndroFSXServer.dll>` inside `<%USERPROFILE%\AndroFSXServer>` folder   
-![InstallTarget](res/img/installation/InstallTarget.png) 
+![InstallTarget](../res/img/installation/InstallTarget.png) 
  
 # Set up
 After we're finish with installation step now we have to configure server (host computer side) according to client (android side) ip address configuration.
@@ -33,6 +33,6 @@ After we're finish with installation step now we have to configure server (host 
    ```   
 1. Update Host computer configuration.
    1. Find yours smartphone or tablet ip address. Can be found in setup page, slide left to open menu page then tab on gear icon.   
-   ![AndroidConfigStatus](res/img/set%20up/AndroidConfigStatus.jpg)
+   ![AndroidConfigStatus](../res/img/set%20up/AndroidConfigStatus.jpg)
    1. Update AndroFSXServer.cfg, add smartphone or tablet ip address to AndroFSXServer.cfg   
-   ![ConfigEdit](res/img/set%20up/ConfigEdit.png)
+   ![ConfigEdit](../res/img/set%20up/ConfigEdit.png)
