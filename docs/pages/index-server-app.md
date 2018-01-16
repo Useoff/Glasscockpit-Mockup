@@ -21,7 +21,7 @@ To download DLL (Dynamic link library), please select according to your FSX od P
    - Using P3D v4 32 bit version
    - Using Simconnect P3D V4 32 bit version
 
-DLL (Dynamic link library) and configuration file are installed manually with the following way;
+After downloading DLL (Dynamic link library) now you have to configure and install manually with the following way;
 - Create `<AndroFSXServer>` folder in `<%USERPROFILE%>` directory.   
 ![UserProfilePath](../res/img/installation/UserProfilePath.png) 
 - Extract, then place `<AndroFSXServer.cfg>` and `<AndroFSXServer.dll>` inside `<%USERPROFILE%\AndroFSXServer>` folder   
