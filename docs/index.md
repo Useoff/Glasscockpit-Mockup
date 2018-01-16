@@ -4,5 +4,5 @@
 
 If you're have any suggestion for more pages on my application, you can contact me at [:email:](donotspeak0988@gmail.com) donotspeak0988@gmail.com
 
-If you're rich and kind enough buy me some donut at [:money_with_wings:](PayPal.Me/donotspeak0988) [PayPal.Me/donotspeak0988](PayPal.Me/donotspeak0988)
+If you're rich and kind enough buy me some donut at [:money_with_wings:](https://www.paypal.me/donotspeak0988) [PayPal.Me](https://www.paypal.me/donotspeak0988)
 
