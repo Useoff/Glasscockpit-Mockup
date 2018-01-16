@@ -10,6 +10,17 @@ Simconnect SDK version is depend on FSX and P3D version. You can find details in
 Client application aircraft cockpit devices: PFD, EICAS, ECAM, etc.
 
 # Installation
+To download DLL (Dynamic link library), please select according to your FSX od P3D SSIMCONNECT SDK requirement
+- **[AndroFSXServer_V4_P3D.SIMCONNECT.X64](../../release/x64/AndroFSXServer_V4_P3D.SIMCONNECT.X64.zip)** Use this DLL (Dynamic link library) if you meet below requirement:   
+   - Using P3D v4 64 bit version
+   - Using Simconnect P3D V4 64 bit version
+- **[AndroFSXServer_V1_FSX.SIMCONNECT.X86](../../release/x86/AndroFSXServer_V1_FSX.SIMCONNECT.X86.zip)** Use this DLL (Dynamic link library) if you meet below requirement:   
+   - Using Latest FSX 32 bit version.
+   - Using Latest Simconnect build for FSX.
+- **[AndroFSXServer_V4_P3D.SIMCONNECT.X86](../../release/x86/AndroFSXServer_V4_P3D.SIMCONNECT.X86.zip)** Use this DLL (Dynamic link library) if you meet below requirement:   
+   - Using P3D v4 32 bit version
+   - Using Simconnect P3D V4 32 bit version
+
 DLL (Dynamic link library) and configuration file are installed manually with the following way;
 - Create `<AndroFSXServer>` folder in `<%USERPROFILE%>` directory.   
 ![UserProfilePath](../res/img/installation/UserProfilePath.png) 
