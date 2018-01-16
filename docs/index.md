@@ -3,14 +3,14 @@ This DLL (Dynamic Link Library) app is an enhancement tool to be used to support
 
 # Requirement
 - **FSX / P3D.**   
-Flight Simulation application on the host side computer.
+Flight Simulation application on the host side computer. More information can be found at [FSX](https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator_X) and [P3D](https://en.wikipedia.org/wiki/Microsoft_Flight_Simulator#P3D_-_Lockheed_Martin_Prepar3D) wikipedia.
 - **Simconnect SDK on the host computer.**   
-Simconnect SDK version is depend on FSX and P3D version.
+Simconnect SDK version is depend on FSX and P3D version. You can find details information from [FSX Simconnect SDK website](https://www.microsoft.com/Products/Games/FSInsider/downloads/Pages/FSXSDK-SP2Update.aspx) and [P3D Simconnect SDK website](https://www.prepar3d.com/support/sdk/)
 - **[Glasscockpit for FSX](https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX) installed on android device.**   
 Client application aircraft cockpit devices: PFD, EICAS, ECAM, etc.
 
 # Installation
-This application can be installed in the following way,
+DLL (Dynamic link library) and configuration file are installed manually with the following way;
 - Create `<AndroFSXServer>` folder in `<%USERPROFILE%>` directory.   
 ![UserProfilePath](res/img/installation/UserProfilePath.png) 
 - Extract, then place `<AndroFSXServer.cfg>` and `<AndroFSXServer.dll>` inside `<%USERPROFILE%\AndroFSXServer>` folder   
