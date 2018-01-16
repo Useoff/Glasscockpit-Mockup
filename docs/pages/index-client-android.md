@@ -13,17 +13,17 @@ On android client application ([Glasscockpit for FSX](https://play.google.com/st
 
 List menu that can be accessed from ([Glasscockpit for FSX](https://play.google.com/store/apps/details?id=com.donotspeak.GlassCockpitFSX)) application is:   
    - **BOEING 747**
-      - **[PFD](https://en.wikipedia.org/wiki/Primary_flight_display) (Primary Flight Display)**
-      - **[EICAS](https://id.wikipedia.org/wiki/Engine-indicating_and_crew-alerting_system) (Engine Indicating and Crew Alerting System)**
-      - **EICAS (Engine Indicating and Crew Alerting System) LOWER**
+      - **[PFD](https://en.wikipedia.org/wiki/Primary_flight_display) (Primary Flight Display).**
+      - **[EICAS](https://id.wikipedia.org/wiki/Engine-indicating_and_crew-alerting_system) (Engine Indicating and Crew Alerting System).**
+      - **EICAS (Engine Indicating and Crew Alerting System) LOWER.**
    - **BOEING AIRBUS 320**
-      - **[PFD](https://en.wikipedia.org/wiki/Primary_flight_display) (Primary Flight Display)** AIRBUS MODEL
-      - **[ECAM](https://en.wikipedia.org/wiki/Electronic_centralised_aircraft_monitor) (Electronic Centralised Aircraft Monitor)**
-      - **ECAM (Electronic Centralised Aircraft Monitor) ENGINE**
+      - **[PFD](https://en.wikipedia.org/wiki/Primary_flight_display) (Primary Flight Display)** AIRBUS MODEL.
+      - **[ECAM](https://en.wikipedia.org/wiki/Electronic_centralised_aircraft_monitor) (Electronic Centralised Aircraft Monitor).**
+      - **ECAM (Electronic Centralised Aircraft Monitor) ENGINE.**
    - **FREE PANELS**
-      - **COMPASS**
-      - **TURN COORDINATOR**
-      - **ALTIMETER**
-      - **VSI (Vertical Speed Indicator)**
-      - **AIRSPEED**
+      - **COMPASS.**
+      - **TURN COORDINATOR.**
+      - **ALTIMETER.**
+      - **VSI (Vertical Speed Indicator).**
+      - **AIRSPEED.**
    - **SET UP PAGE**
